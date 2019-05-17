@@ -26,7 +26,7 @@ driver.init()
     })
     .catch((err) => {
       const errorOriginReference = 'Refer to line 23 of https://github.com/webdriverio/webdriverio/blob/master/packages/webdriver/src/utils.js';
-      console.log(`Refer to line 23 of Refer to line 23 of ${errorOriginReference} for origin of the error.`)
+      console.log(`Refer to line 23 of ${errorOriginReference} for origin of the error.`)
       console.log(err)
     })
 .end()
